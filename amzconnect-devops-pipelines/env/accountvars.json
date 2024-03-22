@@ -4,14 +4,14 @@
         "env": "dev",
         "branch": "develop",
         "enabled": true,
-        "account": "XXXXXXXXXXXX",
+        "account": "492818214822",
         "region": ["us-east-1", "us-west-2"],
         "app": "ACME"
     },
     {
         "env": "staging",
         "branch": "staging",
-        "enabled": true,
+        "enabled": false,
         "account": "XXXXXXXXXXXX",
         "region": ["us-east-1", "us-west-2"],
         "app": "ACME"
@@ -19,7 +19,7 @@
     {
         "env": "prod",
         "branch": "main",
-        "enabled": true,
+        "enabled": false,
         "account": "XXXXXXXXXXXZ",
         "region": ["us-east-1", "us-west-2"],
         "app": "ACME"
