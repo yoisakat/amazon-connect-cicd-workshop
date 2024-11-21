@@ -1,8 +1,8 @@
 {
     "env": "devops",
     "account": "470010074348",
-    "region": "us-east-1",
-    "codestarArn": "arn:aws:codestar-connections:us-east-1:470010074348:connection/1c82a46f-daa6-49eb-9410-85e7936a8a21",
+    "region": "ap-northeast-1",
+    "codestarArn": "arn:aws:codeconnections:ap-northeast-1:470010074348:connection/143c2710-2fa2-42a0-bb8f-0089add82bb2",
     "repo": "amazon-connect-cicd-workshop",
     "owner": "yoisakat",
     "email": "yoisakat@amazon.co.jp"

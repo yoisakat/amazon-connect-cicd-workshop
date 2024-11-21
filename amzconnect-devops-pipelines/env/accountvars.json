@@ -5,23 +5,23 @@
         "branch": "develop",
         "enabled": true,
         "account": "492818214822",
-        "region": ["us-east-1", "us-west-2"],
+        "region": ["ap-northeast-1"],
         "app": "ACME"
     },
     {
         "env": "staging",
         "branch": "staging",
-        "enabled": false,
-        "account": "XXXXXXXXXXXX",
-        "region": ["us-east-1", "us-west-2"],
+        "enabled": true,
+        "account": "6517067636665",
+        "region": ["ap-northeast-1"],
         "app": "ACME"
     },
     {
         "env": "prod",
         "branch": "main",
-        "enabled": false,
-        "account": "XXXXXXXXXXXZ",
-        "region": ["us-east-1", "us-west-2"],
+        "enabled": true,
+        "account": "651706763666",
+        "region": ["ap-northeast-1"],
         "app": "ACME"
     }]
 }
