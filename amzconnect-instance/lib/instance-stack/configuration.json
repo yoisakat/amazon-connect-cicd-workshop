@@ -1,3 +1,44 @@
 {
-  "instanceAlias": "yoisakat-cicd01"
+  "instanceAlias": "yoisakat-cicd01",
+  "instanceStorageBucketName": "connect-yoisakat-cicd01",
+  "identityManagementType": "CONNECT_MANAGED",
+  "instanceStorageConfig": [
+    {
+      "ResourceType": "CALL_RECORDINGS",
+      "StorageConfig": {
+        "S3Config": {
+          "BucketPrefix": "CallRecordings"
+        },
+        "StorageType": "S3"
+      }
+    },
+    {
+      "ResourceType": "CHAT_TRANSCRIPTS",
+      "StorageConfig": {
+        "S3Config": {
+          "BucketPrefix": "ChatTranscripts"
+        },
+        "StorageType": "S3"
+      }
+    },
+    {
+      "ResourceType": "SCHEDULED_REPORTS",
+      "StorageConfig": {
+        "S3Config": {
+          "BucketPrefix": "Reports"
+        },
+        "StorageType": "S3"
+      }
+    }
+  ],
+  "queuesToAdd": [
+    {
+      "Name": "ACME_Sales",
+      "Description": "Queue for Sales"
+    },
+    {
+      "Name": "ACME_Finance",
+      "Description": "Queue for Finance"
+    }
+  ]
 }
