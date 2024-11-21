@@ -1,6 +1,6 @@
 {
   "instanceAlias": "yoisakat-cicd01",
-  "instanceStorageBucketName": "connect-cicd01",
+  "instanceStorageBucketName": "connect-yoisakat-cicd01",
   "identityManagementType": "CONNECT_MANAGED",
   "instanceStorageConfig": [
     {
